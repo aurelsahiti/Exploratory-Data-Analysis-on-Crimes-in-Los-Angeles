@@ -4,7 +4,7 @@
 ---
 
 ## Project Overview
-Los Angeles — famous for its sunshine, coastline, and entertainment industry — also faces the complex challenge of urban crime.  
+Los Angeles, famous for its sunshine, coastline, and entertainment industry, also faces the complex challenge of urban crime.  
 The **Los Angeles Police Department (LAPD)** provided public crime data for analysis to identify behavioral patterns and guide better resource allocation.  
 
 This **Exploratory Data Analysis (EDA)** project transforms raw LAPD crime records into visual insights revealing where, when, and to whom crimes occur most often.  
@@ -35,7 +35,7 @@ The dataset (`crimes.csv`) is a modified version of the publicly available **Los
 | **Status Desc** | Case status (e.g., *Invest Cont*, *Adult Arrest*). |
 | **LOCATION** | Street-level address. |
 
-**Dataset size:** 185 715 records | **Period:** 2020 – 2023 :contentReference[oaicite:0]{index=0}
+**Dataset size:** 185 715 records | **Period:** 2020 – 2023
 
 ---
 
@@ -75,8 +75,8 @@ This suggests that **fraud-related and property crimes** far exceed violent offe
 </p>
 
 Criminal activity peaks at **hour 12 (≈ noon)**, with a smaller rise between **18:00–21:00**.  
-Nighttime (22:00 – 03:59) incidents occur most often in the **Central Division**, indicating patterns aligned with nightlife and downtown concentration.  
-These findings can inform **shift scheduling** and **lighting policy** in high-risk zones :contentReference[oaicite:1]{index=1}.
+Nighttime (22:00 - 03:59) incidents occur most often in the **Central Division**, indicating patterns aligned with nightlife and downtown concentration.  
+These findings can inform **shift scheduling** and **lighting policy** in high risk zones.
 
 ---
 
@@ -85,9 +85,9 @@ These findings can inform **shift scheduling** and **lighting policy** in high-r
   <img src="images/victim_age_groups.png" width="550"/>
 </p>
 
-Victims aged **26–44** represent the majority of reported incidents — approximately 47 000 (26–34) and 42 000 (35–44).  
+Victims aged **26–44** represent the majority of reported incidents, approximately 47 000 (26–34) and 42 000 (35–44).  
 Younger victims (0–17) account for a small fraction, suggesting most incidents involve **working-age adults**.  
-These trends are useful for tailoring community-outreach and awareness programs.
+These trends are useful for tailoring community outreach and awareness programs.
 
 ---
 
@@ -97,7 +97,7 @@ These trends are useful for tailoring community-outreach and awareness programs.
 </p>
 
 A weak correlation (≈ 0.01) exists between **Victim Age** and other numerical attributes such as `DR_NO`.  
-This confirms that **crime type and location** — rather than numeric identifiers — are stronger predictors of criminal patterns.
+This confirms that **crime type and location**, rather than numeric identifiers, are stronger predictors of criminal patterns.
 
 ---
 
@@ -111,7 +111,7 @@ This confirms that **crime type and location** — rather than numeric identifie
 ---
 
 ## Next Steps
-- Integrate **geospatial heatmaps** (e.g., Folium, GeoPandas) to visualize neighborhood-level risk.  
+- Integrate **geospatial heatmaps** (e.g., Folium, GeoPandas) to visualize neighborhood level risk.  
 - Build **predictive models** for crime likelihood by time and location.  
 - Conduct **sentiment and text analysis** on case descriptions.  
 - Automate periodic **data refresh and dashboard updates** via cloud pipelines.
@@ -122,4 +122,3 @@ This confirms that **crime type and location** — rather than numeric identifie
 **Aurel Sahiti**  
 Data Science Graduate Student | Exploratory Analytics & Visualization  
 📊 [LinkedIn](https://linkedin.com/in/aurelsahiti) | 🌐 [GitHub](https://github.com/aurelsahiti)
-
