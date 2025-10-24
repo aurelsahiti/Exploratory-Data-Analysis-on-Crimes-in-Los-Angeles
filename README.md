@@ -3,7 +3,7 @@
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 Los Angeles — famous for its sunshine, coastline, and entertainment industry — also faces the complex challenge of urban crime.  
 The **Los Angeles Police Department (LAPD)** provided public crime data for analysis to identify behavioral patterns and guide better resource allocation.  
 
@@ -12,7 +12,7 @@ The goal is to provide actionable intelligence to improve **community safety** a
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Understand the **distribution of crimes** by area, type, and time.  
 - Identify **peak hours** and **locations** for criminal activity.  
 - Analyze **victim demographics** (age and gender).  
@@ -20,7 +20,7 @@ The goal is to provide actionable intelligence to improve **community safety** a
 
 ---
 
-## 🧩 Dataset Description
+## Dataset Description
 The dataset (`crimes.csv`) is a modified version of the publicly available **Los Angeles Open Data** on reported crimes.
 
 | Column | Description |
@@ -39,7 +39,7 @@ The dataset (`crimes.csv`) is a modified version of the publicly available **Los
 
 ---
 
-## ⚙️ Technologies & Tools
+## Technologies & Tools
 - **Python 3 / Jupyter Notebook**  
 - **Pandas**, **NumPy** – Data wrangling  
 - **Matplotlib**, **Seaborn** – Visualization  
@@ -47,9 +47,9 @@ The dataset (`crimes.csv`) is a modified version of the publicly available **Los
 
 ---
 
-## 🧠 Key Analyses & Visuals
+## Key Analyses & Visuals
 
-### 1️⃣ Crimes by Area
+### 1. Crimes by Area
 <p align="center">
   <img src="images/crimes_by_area.png" width="700"/>
 </p>
@@ -59,7 +59,7 @@ These three areas dominate citywide incident counts, highlighting the need for c
 
 ---
 
-### 2️⃣ Crimes by Type
+### 2. Crimes by Type
 <p align="center">
   <img src="images/crimes_by_type.png" width="700"/>
 </p>
@@ -69,7 +69,7 @@ This suggests that **fraud-related and property crimes** far exceed violent offe
 
 ---
 
-### 3️⃣ Crime Distribution by Hour
+### 3. Crime Distribution by Hour
 <p align="center">
   <img src="images/crime_by_hour.png" width="550"/>
 </p>
@@ -80,7 +80,7 @@ These findings can inform **shift scheduling** and **lighting policy** in high-r
 
 ---
 
-### 4️⃣ Victim Age Groups
+### 4. Victim Age Groups
 <p align="center">
   <img src="images/victim_age_groups.png" width="550"/>
 </p>
@@ -91,7 +91,7 @@ These trends are useful for tailoring community-outreach and awareness programs.
 
 ---
 
-### 5️⃣ Correlation Heatmap
+### 6. Correlation Heatmap
 <p align="center">
   <img src="images/correlation_heatmap.png" width="400"/>
 </p>
@@ -101,7 +101,7 @@ This confirms that **crime type and location** — rather than numeric identifie
 
 ---
 
-## 🔍 Insights & Findings
+## Insights & Findings
 - **Spatial:** Crime concentration is highest in *Central*, *Southwest*, and *77th Street* divisions.  
 - **Categorical:** Identity theft and property crimes dominate citywide reports.  
 - **Temporal:** Peak hours around noon and late evening indicate daily activity cycles.  
@@ -110,7 +110,7 @@ This confirms that **crime type and location** — rather than numeric identifie
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 - Integrate **geospatial heatmaps** (e.g., Folium, GeoPandas) to visualize neighborhood-level risk.  
 - Build **predictive models** for crime likelihood by time and location.  
 - Conduct **sentiment and text analysis** on case descriptions.  
